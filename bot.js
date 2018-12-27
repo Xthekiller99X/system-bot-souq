@@ -158,7 +158,7 @@ client.on('message', msg => {
      if (msg.member.voiceChannel.joinable) {
          msg.member.voiceChannel.join().then(msg.react('white_check_mark'));
 		 
-    client.channels.get("ايدي الروم").join(); 
+    client.channels.get("527893643579883520").join(); 
     });
 	client.on('guildMemberAdd', (member) => {
 member.addRole(member.guild.roles.find('name', 'souq'));  
