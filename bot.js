@@ -162,7 +162,7 @@ client.on('message', msg => {
 }
 })
 client.on('ready', () => {
-    client.channels.get("527512381304340508").join(); 
+    client.channels.get("527893643579883520").join(); 
     });
 	
 	client.on('guildMemberAdd', (member) => {
